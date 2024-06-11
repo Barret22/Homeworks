@@ -1,0 +1,19 @@
+.textColor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    font-size: 22px;
+    padding: 50px;
+    color: green;
+}
+.buttonText {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+
+}
