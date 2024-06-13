@@ -1,0 +1,14 @@
+
+
+body {
+    color:red;
+    text-align: center;
+}
+h2{
+    color:blue;
+}
+td {
+    color: blue;
+    background-color:yellow;
+    font-weight: 800;
+}
