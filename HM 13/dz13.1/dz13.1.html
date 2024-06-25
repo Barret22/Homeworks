@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="dz13.1.css">
+</head>
+<body>
+<div class="form-container">
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <div class="error-message" id="nameError"></div>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <div class="error-message" id="messageError"></div>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone number:</label>
+            <input type="text" id="phone" name="phone">
+            <div class="error-message" id="phoneError"></div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <div class="error-message" id="emailError"></div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<script src="dz13.1.js"></script>
+</body>
+</html>
