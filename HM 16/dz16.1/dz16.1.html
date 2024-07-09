@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dz16.1.css">
+    <title>"Студент"</title>
+</head>
+<body class="wrapper">
+<div class="student-container">
+    <div class="student-info">
+        <label>Ім'я: <input type="text" id="firstName" /></label><br>
+        <label>Прізвище: <input type="text" id="lastName" /></label><br>
+        <label>Рік народження: <input type="number" id="birthYear" /></label><br>
+    </div>
+    <div class="actions">
+        <button onclick="addStudent()">Додати студента</button>
+    </div>
+</div>
+<div class="student-actions">
+    <label>Виберіть студента:
+        <select id="studentSelect"></select>
+    </label><br>
+    <label>Оцінка: <input type="number" id="grade" /></label>
+    <button onclick="addGrade()">Додати оцінку</button><br>
+    <button onclick="markPresent()">Присутній</button>
+    <button onclick="markAbsent()">Відсутній</button><br>
+    <button onclick="getSummary()">Отримати звіт</button>
+</div>
+<div id="output"></div>
+
+
+<script src="dz16.1.js"></script>
+</body>
+</html>
+
