@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dz17.3.css">
+    <title>Bank Account</title>
+</head>
+<body>
+<div class="container">
+    <div class="balance">Баланс: $<span id="balance">0.00</span></div>
+    <div class="input-group">
+        <label for="amount">Сума:</label>
+        <input type="number" id="amount" step="0.01" min="0">
+    </div>
+    <div class="buttons">
+        <button onclick="deposit()">Покласти</button>
+        <button onclick="withdraw()">Зняти</button>
+    </div>
+    <div id="message"></div>
+</div>
+
+<script src="dz17.3.js"></script>
+</body>
+</html>
