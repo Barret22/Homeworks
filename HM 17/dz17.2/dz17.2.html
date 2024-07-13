@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dz17.2.css">
+    <title>Тренер</title>
+</head>
+<body>
+    <div class="coach">
+        <h1>Тренери</h1>
+        <input type="text" id="name" placeholder="Введіть імя тренера">
+
+        <select id="specialization">
+            <option value="" disabled selected>Список спеціалізацій</option>
+            <option value="Йога">Йога</option>
+            <option value="Фітнес">Фітнес</option>
+            <option value="Плавання">Плавання</option>
+            <option value="Теніс">Теніс</option>
+        </select>
+        <input type="text" id="newSpecialization" placeholder="Введіть нову спеціалізіцію">
+        <button onclick="addSpecialization()">Додати</button>
+
+        <input type="number" id="rating" placeholder="Введіть оцінку (0-5)" step="0.1" min="0" max="5">
+        <button onclick="addCoach()">Додати тренера</button>
+        <h2 id="coachInfo"></h2>
+    </div>
+<script src="dz17.2.js"></script>
+</body>
+</html>
