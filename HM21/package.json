@@ -1,0 +1,19 @@
+{
+  "name": "hm21",
+  "version": "1.0.0",
+  "main": "dz21.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel dz21.1.js -o dz-compiled.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.25.0"
+  }
+}
