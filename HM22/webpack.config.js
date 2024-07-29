@@ -9,7 +9,7 @@ module.exports = {
     entry: './src/dz22.1.js',
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'dist2'),
         clean: true,
     },
     module: {
@@ -74,7 +74,7 @@ module.exports = {
         }),
     ],
     devServer: {
-        static: path.join(__dirname, 'dist'),
+        static: path.join(__dirname, 'dist2'),
         compress: true,
         port: 9000,
         hot: true,
