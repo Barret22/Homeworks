@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+</head>
+<body>
+<h1>TODO List</h1>
+<div id="todos"></div>
+<script>
+    async function fetchTodos() {
+        const response = await fetch('http://localhost:3000/api/todos');
+        const todos = await response.json();
+        const todosContainer = document.getElementById('todos');
+        todosContainer.innerHTML = todos.map(todo => `<div>${todo.title}</div>`).join('');
+    }
+
+    fetchTodos();
+</script>
+</body>
+</html>
