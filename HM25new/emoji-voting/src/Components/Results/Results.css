@@ -1,0 +1,9 @@
+.results-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.winner-emoji {
+    font-size: 4rem;
+    margin-top: 10px;
+}

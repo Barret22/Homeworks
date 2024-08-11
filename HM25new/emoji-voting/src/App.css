@@ -36,35 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.container {
-  max-width: 500px;
-  margin: auto;
-}
-.emoji-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-
-
-.emoji {
-  cursor: pointer;
-  font-size: 2rem;
-  text-align: center;
-  flex: 1;
-  margin: 0 10px;
-}
-
-.emoji span {
-  display: block;
-}
-
-h1, h2, h3 {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-}
-
-.btn {
-  font-size: 1.2rem;
-}
